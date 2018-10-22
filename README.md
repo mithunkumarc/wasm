@@ -56,3 +56,11 @@
       You can run them using node.js:
 
       node a.out.js
+      
+      
+#### .c to html
+      mithun@linux:~$ sudo apt-get update      
+      mithun@linux:~$ sudo apt install emscripten
+      mithun@linux:~/Documents/nodejs$ emcc wasmhw.c -o hello.html
+
+
